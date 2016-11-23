@@ -1,0 +1,15 @@
+Source: diary
+Section: misc
+Priority: optional
+Build-Depends: debhelper (>= 9), libncurses5-dev
+Maintainer: Johnathan Jenkins <twodopeshaggy@gmail.com>
+Standards-Version: 3.9.2
+Homepage: https://github.com/in0rdr/diary
+Vcs-Git: git://git@github.com:in0rdr/diary.git
+Vcs-Browser: https://github.com/in0rdr/diary.git
+
+Package: diary
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Architecture: amd64 i386
+Description: Simple CLI diary
+ See https://github.com/in0rdr/diary

@@ -1,0 +1,23 @@
+#!/usr/bin/make -f
+%:
+	dh $@ 
+
+clean:
+	dh_clean
+
+
+binary-arch: clean
+	dh_prep
+	dh_installdirs
+	make
+	dh_install diary /usr/bin/
+	dh_install README.md /usr/share/doc/diary
+	dh_strip
+	dh_compress
+	dh_fixperms
+	dh_installdeb
+	dh_gencontrol
+	dh_md5sums
+	dh_builddeb
+
+binary: binary-arch
