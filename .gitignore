@@ -1,0 +1,13 @@
+*.py.swp
+*.pyc
+*.swp
+dist
+build
+*.swo
+.cache
+*.deb
+*.tar.gz
+*.changes
+*.dsc
+*.build
+*.upload
