@@ -1,5 +1,5 @@
-diary (0.1-0) trusty; urgency=medium
+diary (0.1-0) xenial; urgency=medium
 
-  * Init
+  * Init pakaging.
 
- -- John Jenkins <twodopeshaggy@gmail.com>  Thu, 20 Oct 2016 08:44:45 -0400
+ -- John Jenkins <twodopeshaggy@gmail.com>  Wed, 23 Nov 2016 02:15:34 -0800

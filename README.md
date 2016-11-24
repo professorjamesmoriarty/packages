@@ -4,7 +4,7 @@ In each sub folder:
 
 * fetch new package:
 
-    `wget https://github.com/xxx/xxx/archive/v2.8.tar.gz -O xxx_2.8.orig.tar.gz`
+    `wget https://github.com/in0rdr/diary/archive/v0.1.tar.gz -O diary_0.1.orig.tar.gz`
 
 * Generate data to upload, and sign it:
 
@@ -12,4 +12,4 @@ In each sub folder:
 
 * Upload new package "changes" file:
 
-    `dput ppa:twodopeshaggy/xxx xxx_2.8_source.changes`
+    `dput ppa:twodopeshaggy/ppapackages diary_0.1_source.changes`
