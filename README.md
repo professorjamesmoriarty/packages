@@ -1,5 +1,7 @@
 # Packages
 
+sudo add-apt-repository ppa:twodopeshaggy/ppapackages
+
 In each sub folder:
 
 * fetch new package:
