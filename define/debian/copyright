@@ -1,0 +1,8 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: define
+Upstream-Contact: Johnathan Jenkins <twodopeshaggy@gmail.com>
+Source: Define is a terminal dictionary script that uses wordnik for definitions.
+
+Files: *
+Copyright: 2015 SethDusek
+License: MIT

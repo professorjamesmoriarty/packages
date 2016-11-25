@@ -1,0 +1,15 @@
+Source: define
+Section: misc
+Priority: optional
+Build-Depends: debhelper (>= 9) python, python-setuptools
+Maintainer: Johnathan Jenkins <twodopeshaggy@gmail.com>
+Standards-Version: 3.9.2
+Homepage: https://github.com/SethDusek/define
+Vcs-Git: git://git@github.com:SethDusek/define.git
+Vcs-Browser: https://github.com/SethDusek/define.git
+
+Package: define
+Depends: ${python:Depends}, ${misc:Depends}
+Architecture: all
+Description: Define is a terminal dictionary script that uses wordnik for definitions.
+ See https://github.com/SethDusek/define
