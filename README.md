@@ -1,5 +1,7 @@
 # Packages
 
+Contains misc projects in a single repo.
+
 sudo add-apt-repository ppa:twodopeshaggy/ppapackages
 
 In each sub folder:
