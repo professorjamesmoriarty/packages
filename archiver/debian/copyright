@@ -1,0 +1,15 @@
+Format: http://dep.debian.net/deps/dep5
+Upstream-Name: archiver
+Source: https://github.com/mholt/archiver
+
+Files: *
+Copyright: Copyright (c) 2016 Matthew Holt
+License: MIT License
+
+Files: debian/*
+Copyright: 2016 John Jenkins <twodopeshaggy@gmail.com>
+License:
+ Copying and distribution of this package, with or without
+ modification, are permitted in any medium without royalty
+ provided the copyright notice and this notice are
+ preserved.

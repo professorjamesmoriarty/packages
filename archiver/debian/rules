@@ -1,0 +1,32 @@
+#!/usr/bin/make -f
+# This file is in the public domain.
+# You may freely use, modify, distribute, a
+
+export GOPATH=$(CURDIR)
+
+PKGDIR=debian/archiver
+
+%:
+	dh $@ 
+
+clean:
+	dh_clean
+	rm -rf $(GOPATH)/bin/* $(GOPATH)/pkg/*
+	rm -f $(GOPATH)/goinstall.log
+
+binary-arch: clean
+	dh_prep
+	dh_installdirs
+	cd $(GOPATH)/src/github.com/mholt/archiver/cmd/archiver && find * -name '*.go' -exec dirname {} \; | xargs -n1 go install
+
+	mkdir -p $(PKGDIR)/usr/bin
+	cp $(GOPATH)/bin/* $(PKGDIR)/usr/bin/
+	dh_strip
+	dh_compress
+	dh_fixperms
+	dh_installdeb
+	dh_gencontrol
+	dh_md5sums
+	dh_builddeb
+
+binary: binary-arch

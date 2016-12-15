@@ -1,0 +1,13 @@
+Source: archiver
+Section:  net
+Priority: extra
+Maintainer: John Jenkins <twodopeshaggy@gmail.com>
+Build-Depends: debhelper (>= 9), golang-go, git
+Standards-Version: 3.9.1
+Homepage: https://github.com/mholt/archiver
+
+Package: archiver
+Architecture: amd64 i386 armel armhf arm64
+Depends: ${misc:Depends}
+Description: Easily create and extract .zip, .tar, .tar.gz, .tar.bz2, .tar.xz, and .rar (extract-only) files with Go
+ Package archiver makes it trivially easy to make and extract common archive formats such as .zip, and .tar.gz. Simply name the input and output file(s).
