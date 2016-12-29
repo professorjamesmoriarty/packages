@@ -1,0 +1,26 @@
+Format: 0.2
+Source: diary
+Binary: diary
+Architecture: source
+Version: 0.3-0
+Checksums-Md5:
+ 242d8062bfa294d4a4ec3718369807f4 916 diary_0.3-0.dsc
+Checksums-Sha1:
+ e783b08c928f7362166a97e8bae7945a2a36e7b4 916 diary_0.3-0.dsc
+Checksums-Sha256:
+ 7775238a94eb07287592b496e1c185d659a6a94004d4b5c45b125e13beef06f1 916 diary_0.3-0.dsc
+Build-Architecture: amd64
+Build-Date: Thu, 29 Dec 2016 05:40:12 -0800
+Environment:
+ DEB_BUILD_OPTIONS="parallel=4"
+ LANG="en_US.utf8"
+ LC_ADDRESS="en_US.UTF-8"
+ LC_IDENTIFICATION="en_US.UTF-8"
+ LC_MEASUREMENT="en_US.UTF-8"
+ LC_MONETARY="en_US.UTF-8"
+ LC_NAME="en_US.UTF-8"
+ LC_NUMERIC="en_US.UTF-8"
+ LC_PAPER="en_US.UTF-8"
+ LC_TELEPHONE="en_US.UTF-8"
+ LC_TIME="en_US.UTF-8"
+ SOURCE_DATE_EPOCH="1483018165"

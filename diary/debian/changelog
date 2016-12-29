@@ -1,3 +1,21 @@
+diary (0.3-3) yakkety; urgency=medium
+
+  * fix ubuntu depends 
+
+ -- John Jenkins <twodopeshaggy@gmail.com>  Thu, 29 Dec 2016 06:00:08 -0800
+
+diary (0.3-2) yakkety; urgency=medium
+
+  * fix new depend 
+
+ -- John Jenkins <twodopeshaggy@gmail.com>  Thu, 29 Dec 2016 05:48:58 -0800
+
+diary (0.3-1) yakkety; urgency=medium
+
+  * add man page 
+
+ -- John Jenkins <twodopeshaggy@gmail.com>  Thu, 29 Dec 2016 05:43:57 -0800
+
 diary (0.3-0) yakkety; urgency=medium
 
   * update to 0.3

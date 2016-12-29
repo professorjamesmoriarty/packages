@@ -1,7 +1,7 @@
 Source: diary
 Section: misc
 Priority: optional
-Build-Depends: debhelper (>= 9), libncurses5-dev
+Build-Depends: debhelper (>= 9), libncurses5-dev , libncursesw5-dev
 Maintainer: Johnathan Jenkins <twodopeshaggy@gmail.com>
 Standards-Version: 3.9.2
 Homepage: https://github.com/in0rdr/diary
