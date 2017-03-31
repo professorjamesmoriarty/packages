@@ -1,0 +1,11 @@
+soundcloud-m3u (1.0.0-2) yakkety; urgency=medium
+
+  * packaging fix 
+
+ -- John Jenkins <twodopeshaggy@gmail.com>  Thu, 30 Mar 2017 23:47:30 -0700
+
+soundcloud-m3u (1.0.0-1) yakkety; urgency=medium
+
+  * init 
+
+ -- John Jenkins <twodopeshaggy@gmail.com>  Wed, 29 Mar 2017 19:30:59 -0700

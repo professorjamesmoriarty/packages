@@ -1,0 +1,26 @@
+Format: 0.2
+Source: soundcloud-m3u
+Binary: soundcloud-m3u
+Architecture: source
+Version: 1.0.0-2
+Checksums-Md5:
+ 02dfea38e0a7b5820c3ceadb8b2c9c92 667 soundcloud-m3u_1.0.0-2.dsc
+Checksums-Sha1:
+ 4d4f5e173bfa3b39c90681fed0c806eb0cfdd3c2 667 soundcloud-m3u_1.0.0-2.dsc
+Checksums-Sha256:
+ 262806c7d74eba3ef16b1d393267553fb65d8ba6967382eae3923efb24f69841 667 soundcloud-m3u_1.0.0-2.dsc
+Build-Architecture: amd64
+Build-Date: Thu, 30 Mar 2017 23:47:57 -0700
+Environment:
+ DEB_BUILD_OPTIONS="parallel=4"
+ LANG="en_US.utf8"
+ LC_ADDRESS="en_US.UTF-8"
+ LC_IDENTIFICATION="en_US.UTF-8"
+ LC_MEASUREMENT="en_US.UTF-8"
+ LC_MONETARY="en_US.UTF-8"
+ LC_NAME="en_US.UTF-8"
+ LC_NUMERIC="en_US.UTF-8"
+ LC_PAPER="en_US.UTF-8"
+ LC_TELEPHONE="en_US.UTF-8"
+ LC_TIME="en_US.UTF-8"
+ SOURCE_DATE_EPOCH="1490942850"

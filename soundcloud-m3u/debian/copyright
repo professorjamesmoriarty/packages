@@ -1,0 +1,15 @@
+Format: http://dep.debian.net/deps/dep5
+Upstream-Name: soundcloud-m3u
+Source: https://github.com/dangodai/soundcloud-m3u/
+
+Files: *
+Copyright: Copyright (c) 2017 Reilly Moore
+License: GPL3 Liscense
+
+Files: debian/*
+Copyright: 2017 John Jenkins <twodopeshaggy@gmail.com>
+License:
+ Copying and distribution of this package, with or without
+ modification, are permitted in any medium without royalty
+ provided the copyright notice and this notice are
+ preserved.
