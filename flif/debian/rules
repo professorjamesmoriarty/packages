@@ -16,7 +16,7 @@ binary-arch: clean
 	$(MAKE) -C src/ all
 	$(MAKE) -C src/ decoder
 	$(MAKE) -C src/ viewflif
-	dh_install src/viewflif  /usr/bin/
+	dh_install src/viewflif /usr/bin/
 	dh_install src/flif /usr/bin/
 	dh_install src/dflif /usr/bin/
 	dh_install src/libflif.so /usr/lib/
@@ -32,9 +32,6 @@ binary-arch: clean
 	dh_builddeb
 
 
-install/viewflif:
-	$(MAKE) -C src/ viewflif
-	dh_install -pviewflif --autodest src/viewflif
 
 
-binary: binary-arch viewflif
+binary: binary-arch

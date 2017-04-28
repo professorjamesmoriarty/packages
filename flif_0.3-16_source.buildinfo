@@ -1,0 +1,17 @@
+Format: 0.2
+Source: flif
+Binary: flif
+Architecture: source
+Version: 0.3-16
+Checksums-Md5:
+ ffe7f006a325fbd5ebc815f997449647 905 flif_0.3-16.dsc
+Checksums-Sha1:
+ dbbdd9d069433d016d289b249d88fa4087db20ed 905 flif_0.3-16.dsc
+Checksums-Sha256:
+ 0bd9e9a518663d695bb8d3adb97a1d01665b00276e095bc1f1dbbff3dd7ef7b8 905 flif_0.3-16.dsc
+Build-Architecture: amd64
+Build-Date: Fri, 28 Apr 2017 16:12:12 -0700
+Environment:
+ DEB_BUILD_OPTIONS="parallel=4"
+ LANG="en_US.utf8"
+ SOURCE_DATE_EPOCH="1493421029"
