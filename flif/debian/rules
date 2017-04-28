@@ -1,0 +1,40 @@
+#!/usr/bin/make -f
+%:
+	dh $@
+
+clean:
+	dh_clean
+
+binary-arch: clean
+	dh_prep
+	dh_installdirs
+	gzip -c doc/flif.1 > flif.1.gz
+	dh_install flif.1.gz /usr/share/man/man1
+	dh_install src/library/*.h /usr/include/FLIF
+	dh_install tools/gif2flif /usr/bin/
+	dh_install tools/apng2flif /usr/bin/
+	$(MAKE) -C src/ all
+	$(MAKE) -C src/ decoder
+	$(MAKE) -C src/ viewflif
+	dh_install src/viewflif  /usr/bin/
+	dh_install src/flif /usr/bin/
+	dh_install src/dflif /usr/bin/
+	dh_install src/libflif.so /usr/lib/
+	dh_install src/libflif.so.0 /usr/lib/
+	dh_install src/libflif_dec.so /usr/lib/
+	dh_install src/libflif_dec.so.0 /usr/lib/
+	dh_strip
+	dh_compress
+	dh_fixperms
+	dh_installdeb
+	dh_gencontrol
+	dh_md5sums
+	dh_builddeb
+
+
+install/viewflif:
+	$(MAKE) -C src/ viewflif
+	dh_install -pviewflif --autodest src/viewflif
+
+
+binary: binary-arch viewflif

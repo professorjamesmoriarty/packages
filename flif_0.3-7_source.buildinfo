@@ -1,0 +1,17 @@
+Format: 0.2
+Source: flif
+Binary: flif libflif-dec libflif viewflif gif2flif apng2flif
+Architecture: source
+Version: 0.3-7
+Checksums-Md5:
+ ee3ae4673b6f5c9b88e3694eb622a3b7 1162 flif_0.3-7.dsc
+Checksums-Sha1:
+ c3ca6bb8db4b491d6cbc3ac8391f7698159c80dc 1162 flif_0.3-7.dsc
+Checksums-Sha256:
+ d7e2f75362fac22fb87f9440f81db27a59b02116b89cce716aa67a0810da7dc0 1162 flif_0.3-7.dsc
+Build-Architecture: amd64
+Build-Date: Fri, 28 Apr 2017 13:28:16 -0700
+Environment:
+ DEB_BUILD_OPTIONS="parallel=4"
+ LANG="en_US.utf8"
+ SOURCE_DATE_EPOCH="1493411283"
