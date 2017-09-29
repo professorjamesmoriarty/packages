@@ -1,3 +1,9 @@
+alarm-clock (1.4.9-1) artful; urgency=medium
+
+  * 1.4.9 release 
+
+ -- John Jenkins <twodopeshaggy@gmail.com>  Thu, 28 Sep 2017 17:03:41 -0700
+
 alarm-clock (1.4.5-1) yakkety; urgency=medium
 
   * init

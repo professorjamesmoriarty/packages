@@ -1,0 +1,32 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.0
+Source: alarm-clock
+Binary: alarm-clock
+Architecture: source
+Version: 1.4.9-1
+Checksums-Md5:
+ b69fcb62228dc01b3d9db2cfe1c7bab4 1495 alarm-clock_1.4.9-1.dsc
+Checksums-Sha1:
+ 995e1eef961cbcb5a90f9c89e625b35c9d104774 1495 alarm-clock_1.4.9-1.dsc
+Checksums-Sha256:
+ 92f8d1eb2c0db28f2f4467e21f33e54a1abaf0eb8c86cba62afaf09c222352e0 1495 alarm-clock_1.4.9-1.dsc
+Build-Architecture: amd64
+Build-Date: Thu, 28 Sep 2017 17:05:24 -0700
+Environment:
+ DEB_BUILD_OPTIONS="parallel=4"
+ LANG="en_US.UTF-8"
+ SOURCE_DATE_EPOCH="1506643421"
+
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAEBCAAdFiEEjxrTjeighUSlUSmBcIbpzH7DIzsFAlnNjlIACgkQcIbpzH7D
+IzsW+gf/aag6kYyh/39/iLe0c88BM7PRrDJ5kvdU3C17/gY1q0ZCeMpFqO1+NGHG
+7IvFqy6V1M+War0rbmaoFz6ZNEyy79RozWGBZnf/rGQX9lcUjA4dpn+UYaj0pYYp
+IAHy2OY/OvqsvkR8ELzDmDQAM+TcwAmKTRPJv/qVNeEo0qJU12X3QK17Kz8ceVT0
+JredAK6PuQF7t/StUCVTWUT4RdNvKS+2org1onj1QbyIrScuHA0mo/jgR+3PPuXb
+g+83urLhtHj6dB4NJvuM9A8vmKBIYqEcV90Xf5EJILaf5zFk026fEjzQv3ziLPwv
+MgcBFHMY0QJs4IEdX7P3rwgPIfy8+A==
+=fcYL
+-----END PGP SIGNATURE-----
